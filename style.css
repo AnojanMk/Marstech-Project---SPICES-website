@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+#tog{
+    background-color: white;
+}
+
+nav{
+    background-color: black;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem ;
+    box-shadow: 5px 5px 20px black;
+    
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #09fd26;
+
+}
+
+#navbarSupportedContent a{
+    border-bottom: 2px solid transparent;
+    color: white;
+
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid ;
+    color: #09fd26;
+    
+}
+
+#navbarSupportedContent button{
+        background-color: #09fd26;
+        border-radius: 10px;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/***home***/
+
+#home{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(spices.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#first{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px rgb(102, 97, 97),
+                 0px 2px 0px rgb(102, 97, 97),
+                 0px 3px 0px rgb(102, 97, 97),
+                 0px 4px 0px rgb(102, 97, 97),
+                 0px 5px 0px rgb(102, 97, 97),
+                 0px 6px 0px rgb(102, 97, 97),
+                 0px 7px 0px rgb(102, 97, 97);
+}
+
+#home p{
+    font-size: 18px;
+    color: white;
+}
+
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+
+.signin{
+    background-color: #09fd26;
+    color:white;
+
+}
+
+/***about***/
+
+#about{
+    background-color:rgb(248, 244, 200);
+}
+
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color:#222222;
+}
+
+.row #us{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    position: relative;
+    left: 130px;
+}
+
+.row #about{
+     position: relative;
+     
+}
+
+/***product***/
+
+#product{
+    background-color: #f6f5f5;
+}
+
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    position: relative;
+    top: 40px;
+    
+}
+
+#product img{
+    width: 230px;
+    height: 200px;
+    margin: 7px;
+    border-radius: 20px !important;
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    background: color #e5e5e5;;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;    
+    overflow: hidden;
+    justify-content: center;      
+    align-items: center;  
+    margin: 40px 80px;
+    transition: .2s;
+}
+
+.card:hover{
+    box-shadow: inset 5px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px white;
+    transition: .2s;
+}
+
+#product{
+    padding: relative;
+    margin-bottom: 100px;
+    padding-bottom: 120px;
+    top: -100px;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+
+#product .card{
+    position: relative;
+    top: 100px;
+}
+
+/**contact**/
+
+#container img{
+    height: 100%;
+}
+
+.box{
+    width: 80%;
+    position: relative;
+    bottom: 70px;
+    
+}
+
+
+#contact input{
+    margin: 10px 0px;
+}
+
+#contact textarea{
+    margin: 10px 0px;
+    height: 190px;
+}
+ 
+/**footer**/
+
+footer{
+    background-color: black;
+    height: 100px;
+   
+}
+
+    
+
